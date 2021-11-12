@@ -1,0 +1,67 @@
+@import "./_partials/header";
+@import "./_partials/main";
+@import "./_partials/footer";
+@import "./_partials/about";
+@import "./_partials/journey";
+@import "./_partials/contact";
+@import "./_partials/bake";
+@import "./_partials/responsive";
+@import "./_partials/breakpoints";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e9e4;
+    font-family: 'Julius Sans One', sans-serif;
+    // display: block;
+}
+
+li {
+    list-style: none;
+}
+
+.scroll-top {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 99;
+    background-color: #4a4e69;
+    text-align: center;
+    cursor: pointer;
+    animation: 2s infinite;
+    color: #f2e9e4;
+    font-family: "proximanova", Geneva, Helvetica, Arial, sans-serif;
+    letter-spacing: .12em;
+    display: none;
+    i {
+        padding: 12px;
+        text-align: center;
+    }
+    &:hover {
+        background-color: #8a817c;
+        color: #f2e9e4;
+    }
+}
+
+// main {
+//     .container {
+//         .row {
+//             display: flex;
+//             justify-content: center;
+//             .result {
+//                 margin: 200px 0;
+//             }
+//         }
+//     }
+// }

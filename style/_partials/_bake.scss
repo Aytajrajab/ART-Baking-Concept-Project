@@ -1,0 +1,15 @@
+#bake {
+    background-image: url("../img/bread-bake.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    padding: 100px;
+    width: 100%;
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        color: #463f3a;
+    }
+}

@@ -1,0 +1,88 @@
+@media (max-width: 480px) and (min-width:330px) {
+    #slider {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .btn-bake {
+        top: 0px;
+        h1 {
+            width: 50px;
+        }
+    }
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-right {
+        justify-content: left;
+    }
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #slider {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .btn-bake {
+        top: 5px;
+        h1 {
+            width: 50px;
+        }
+    }
+}
+
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #slider {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .btn-bake {
+        top: 10px;
+    }
+}
+
+
+/* Media Query for Laptops and Desktops */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #slider {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .btn-bake {
+        top: 15px;
+        h1 {
+            width: 300px;
+        }
+    }
+}
+
+
+/* Media Query for Large screens */
+
+@media (min-width: 1281px) {
+    #slider {
+        width: 100%;
+        height: 500px;
+    }
+    .btn-bake {
+        top: 20px;
+        h1 {
+            width: 400px;
+        }
+    }
+}
